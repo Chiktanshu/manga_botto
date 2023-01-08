@@ -9,7 +9,7 @@ from plugins.client import MangaClient, MangaCard, MangaChapter, LastChapter
 
 class ManhuahuaKoClient(MangaClient):
 
-    base_url = urlparse("https://manhuaplus.com/")
+    base_url = urlparse("https://manhuako.com/")
     search_url = base_url.geturl()
     search_param = 's'
     chapters = 'ajax/chapters/'

@@ -7,7 +7,7 @@ from bs4.element import PageElement
 from plugins.client import MangaClient, MangaCard, MangaChapter, LastChapter
 
 
-class ManhuaPlusClient(MangaClient):
+class ManhuahuaKoClient(MangaClient):
 
     base_url = urlparse("https://manhuaplus.com/")
     search_url = base_url.geturl()
